@@ -1,5 +1,5 @@
 # odin-recipes
-Yummy Recipes from Animes
+Yummy Recipes from Animes /
 GOALS: Learn Coding and Make Tasty looking Page!
 
 
