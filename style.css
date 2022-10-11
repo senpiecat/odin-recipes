@@ -1,0 +1,272 @@
+*{
+
+}
+
+body {
+  background-image: url("https://cutewallpaper.org/21/pink-aesthetic-anime-wallpapers/anime-pastel-wallpaper-Tumblr.png");
+  background-repeat:no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: px;
+  border: 5px solid rgba(0, 128, 0, 0);
+  padding: 5px;
+  margin: 20px;
+  text-align: left;
+    
+  }
+  
+  
+
+  h1{
+    font-size: 55px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(98, 255, 255);
+    
+  }
+
+  h2{
+    color: rgb(255, 91, 217);
+    padding-top: 80px;
+  }
+
+
+  h3 {
+    padding-top: 50px;
+  }
+
+  div {
+  text-align: center;
+
+  }
+  
+  ul{ display:grid; 
+      background: #ffb4f5;
+      padding: 20px;
+      width: 500px;
+      margin: auto;
+    }
+
+    ul li {
+      background: #aee8ff;
+      color: rgb(0, 0, 0);
+      margin: 5px;
+      border: 5px solid rgba(0, 128, 0, 0);
+    }
+
+  
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 90px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+img{
+  border: 5px solid rgb(255, 125, 216);
+}
+
+h4{
+  font-size:large;
+  padding-top: 50px;
+}
+
+h5{
+  font-size: medium;
+  font-weight: 200;
+  width: px;
+  border: 5px solid rgba(0, 128, 0, 0);
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
+
+li{  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:small;
+  list-style:none;
+  padding-top: 1px;
+  
+  ;
+}
+
+
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:transparent;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ff009d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(255, 182, 244);
+  color: rgb(0, 217, 255);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(255, 182, 244);
+  color: white;
+}
+
+
+
+
+.imglink:hover
+{
+   background-color:transparent;
+}
+
+.imglink:hover .img-responsive
+{
+   opacity:0.4;
+
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.thumbnails img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.scrollbar {
+  width: 1px;
+  height: 720px;
+  background: #ccc;
+  display: block;
+  margin: 0 0 0 8px;
+}
+
+.thumb {
+  width: 1px;
+  position: absolute;
+  height: 0;
+  background: #000;
+}
+
+.slides {
+  margin: 0 16px;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1rem;
+  width: calc(540px + 1rem);
+  padding: 0 0.25rem;
+  height: 720px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+}
+
+.slides img {
+  width: 540px;
+  object-fit: contain;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+
+.words{
+  text-align: left;
+  font-size: medium;
+  
+}
+
+b{
+  padding-right: 5px;
+}
+
+
+iframe {
+  border: transparent;
+}
+
+
+a{
+  color: #ff009d;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
